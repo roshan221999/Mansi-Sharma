@@ -340,7 +340,8 @@ Starting at ₹12,000 (Founding Price)</p>
         </div>
       </div>
       <div class="fade">
-        <form action="https://formspree.io/f/mqegwrby" method="POST">
+<form action="https://formspree.io/f/mqegwrby" method="POST" class="cf">
+
   <div class="fr">
     <div class="fg">
       <label>Name</label>
@@ -360,10 +361,14 @@ Starting at ₹12,000 (Founding Price)</p>
 
   <div class="fg">
     <label>Message</label>
-    <textarea name="message" rows="5" placeholder="Tell me about your brand goals and where you feel stuck..." required></textarea>
+    <textarea name="message" rows="5" placeholder="Tell me about your brand goals..." required></textarea>
   </div>
 
+  <input type="hidden" name="_subject" value="New Portfolio Contact">
+  <input type="text" name="_gotcha" style="display:none">
+
   <button type="submit" class="sbtn">Send Message →</button>
+
 </form>
       </div>
     </div>
